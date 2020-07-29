@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('esn.calendar').component('calEventViewExternal', {
+angular.module('esn.calendar.event-consultation').component('calEventViewExternal', {
   bindings: {
     eventJcal: '<',
     attendeeEmail: '<',
