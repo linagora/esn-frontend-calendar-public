@@ -2,7 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
-const CopyPlugin = require('copy-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 
 // default: we are building an SPA
@@ -26,6 +25,7 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
+    publicPath: '/excal/'
   },
   resolve: {
     alias: {
@@ -55,16 +55,12 @@ module.exports = {
       template: './assets/index.pug',
       filename: './index.html'
     }),
-    new FaviconsWebpackPlugin('./node_modules/esn-frontend-calendar/src/linagora.esn.calendar/images/calendar-icon.svg'),
-    new CopyPlugin({
-      patterns: [
-        { from: './src/images/white-logo.svg', to: '.' },
-      ],
-    })
+    new FaviconsWebpackPlugin('./node_modules/esn-frontend-calendar/src/linagora.esn.calendar/images/calendar-icon.svg')
   ],
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     contentBasePublicPath: BASE_HREF,
+    publicPath: '/excal/',
     compress: true,
     port: 9900,
     proxy: [{

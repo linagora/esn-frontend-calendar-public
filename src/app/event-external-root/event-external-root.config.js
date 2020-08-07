@@ -6,7 +6,7 @@ angular.module('esn.calendar.event-consultation')
 function routesConfig($routeProvider, $locationProvider) {
   $locationProvider.html5Mode(true);
 
-  $routeProvider.when('/', {
+  $routeProvider.when('/excal/', {
     template: require('./event-external-root.pug'),
     controller: 'CalEventExternalRootController',
     controllerAs: 'ctrl',

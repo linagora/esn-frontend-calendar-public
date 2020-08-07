@@ -33,13 +33,14 @@ html.loading
         60% {
           transform: translateY(-12px);
         }
-      } 
+      }
   body(ng-app='esn.calendar.event-consultation')
     header#header.event-consultation
       div.header-inner.flex-vertical-centered.flex-space-between
         ul.list-inline.all-centered
           li.logo
             a(href='#')
-              img.openpaas-logo(ng-src="/white-logo.svg", fallback-src="/images/white-logo.svg", src="/white-logo.svg", alt="{{ 'OpenPaas Logo' | translate }}")
+              img.openpaas-logo(ng-src="/images/white-logo.svg", fallback-src="/images/white-logo.svg", src="/images/white-logo.svg", alt="{{ 'OpenPaas Logo' | translate }}")
     .consultation-body(ng-view, ng-cloak)
       include ../src/app/app-loading.pug
+    script(src="/excal/env/openpaas.js")
