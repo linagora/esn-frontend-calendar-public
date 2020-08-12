@@ -1,0 +1,12 @@
+{
+    "Organizer": "组织者",
+    "Organizers": "主办单位",
+    "Invitations": "邀请",
+    "Event details": "事件详细信息",
+    "Resources": "资源",
+    "An unknown error occured while updating the event": "更新事件时发生未知错误",
+    "Unable to update the event": "无法更新活动",
+    "The event has not been found": "该事件尚未找到",
+    "An error occured on our side, please contact administrator if problem persists": "我们发生错误，如果问题仍然存在，请与管理员联系",
+    "Participation updated: %s": "参与情况已更新：%s"
+}

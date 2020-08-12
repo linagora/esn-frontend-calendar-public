@@ -1,0 +1,12 @@
+{
+    "Organizer": "Người tổ chức",
+    "Organizers": "Người tổ chức",  
+    "Invitations": "Lời mời",
+    "Event details": "Chi tiết sự kiện",
+    "Resources": "Tài nguyên",
+    "An unknown error occured while updating the event": "Đã xảy ra lỗi không xác định khi cập nhật sự kiện",
+    "Unable to update the event": "Không thể cập nhật sự kiện",
+    "The event has not been found": "Sự kiện chưa được tìm thấy",
+    "An error occured on our side, please contact administrator if problem persists": "Đã xảy ra lỗi ở phía chúng tôi, vui lòng liên hệ với quản trị viên nếu sự cố vẫn tiếp diễn",
+    "Participation updated: %s": "Việc tham gia đã cập nhật: %s"  
+}

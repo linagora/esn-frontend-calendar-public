@@ -1,0 +1,12 @@
+{
+    "Organizer": "Organizer",
+    "Organizers": "Organizers",  
+    "Invitations": "Invitations",
+    "Event details": "Event details",
+    "Resources": "Resources",
+    "An unknown error occured while updating the event": "An unknown error occured while updating the event",
+    "Unable to update the event": "Unable to update the event",
+    "The event has not been found": "The event has not been found",
+    "An error occured on our side, please contact administrator if problem persists": "An error occured on our side, please contact administrator if problem persists",
+    "Participation updated: %s": "Participation updated: %s"
+}

@@ -1,7 +1,7 @@
 .error-display.col-xs-12
   i.mdi.mdi-alert-circle
   .message(ng-if="ctrl.error" ng-switch="ctrl.error.code")
-    span(ng-switch-when="400") {{ 'Unable to update the event from your request' | translate }}
+    span(ng-switch-when="400") {{ 'Unable to update the event' | translate }}
     span(ng-switch-when="404") {{ 'The event has not been found' | translate }}
     span(ng-switch-when="500") {{ 'An error occured on our side, please contact administrator if problem persists' | translate }}
     span(ng-switch-default) {{ 'An unknown error occured while updating the event' | translate }}
