@@ -1,0 +1,12 @@
+{
+    "Organizer": "Организатор",
+    "Organizers": "Организаторы",  
+    "Invitations": "Приглашения",
+    "Event details": "Детали события",
+    "Resources": "Ресурсы",
+    "An unknown error occured while updating the event": "При обновлении события произошла неизвестная ошибка",
+    "Unable to update the event": "Невозможно обновить событие",
+    "The event has not been found": "Событие не найдено",
+    "An error occured on our side, please contact administrator if problem persists": "На нашей стороне произошла ошибка, пожалуйста, свяжитесь с администратором, если проблема не устранена",
+    "Participation updated: %s": "Участие обновлено: %s"
+}
