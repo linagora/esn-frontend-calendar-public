@@ -36,3 +36,5 @@ require('./event-view-external/event-view-external.controller.js');
 require('./event-view-external/event-view-external.component.js');
 require('./error-display/error-display.component.js');
 require('./app.config.js');
+require('./app.run.js');
+
