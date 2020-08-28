@@ -33,6 +33,10 @@ The development server can also be used to serve minified SPA to check that ever
 OPENPAAS_URL=https://dev.open-paas.org npm run serve:prod
 ```
 
+### Serve
+
+Go to http://localhost:9900/excal/ to open the SPA
+
 ## Build
 
 Generates minified SPA in the `./dist` folder:
