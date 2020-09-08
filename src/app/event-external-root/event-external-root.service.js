@@ -5,14 +5,14 @@ angular.module('esn.calendar.event-consultation')
 
 function calEventExternalRootServiceFactory($http, httpConfigurer) {
   return {
-    changeParticipation,
+    changeParticipation
   };
 
   function changeParticipation(jwt) {
     const url = `${httpConfigurer.getUrl('/calendar/api/calendars/event/participation')}?jwt=${jwt}`;
 
     return $http({ method: 'GET', url })
-      .then((response) => response.data)
-      .catch((error) => error.data);
+      .then(response => response.data)
+      .catch(error => error.data);
   }
 }

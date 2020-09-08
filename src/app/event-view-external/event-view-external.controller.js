@@ -14,7 +14,7 @@ function CalEventViewExternalController(CalendarShell) {
   function $onInit() {
     self.event = CalendarShell.from(self.eventJcal);
     self.externalAttendee = _.find(self.event.attendees, {
-      email: self.attendeeEmail,
+      email: self.attendeeEmail
     });
   }
 }
