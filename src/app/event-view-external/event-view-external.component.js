@@ -4,10 +4,10 @@ angular.module('esn.calendar.event-consultation').component('calEventViewExterna
   bindings: {
     eventJcal: '<',
     attendeeEmail: '<',
-    links: '<',
+    links: '<'
   },
   controller: 'CalEventViewExternalController',
   controllerAs: 'ctrl',
   template:
-    '<cal-event-view event="ctrl.event" external-attendee="ctrl.externalAttendee" links="ctrl.links"/>',
+    '<cal-event-view event="ctrl.event" external-attendee="ctrl.externalAttendee" links="ctrl.links"/>'
 });
