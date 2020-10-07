@@ -3,14 +3,14 @@
 angular.module('esn.calendar.event-consultation')
   .controller('CalEventExternalRootController', CalEventExternalRootController);
 
-function CalEventExternalRootController($rootScope, $location, result, calEventExternalRootService) {
+function CalEventExternalRootController($rootScope, $location, result, CAL_EVENTS, calEventExternalRootService) {
   const self = this;
 
-  $rootScope.$on('UPDATE_ACTION_EXCAL', function(event, newLink) {
-    const newJWT = parseJwt(newLink);
+  $rootScope.$on(CAL_EVENTS.UPDATE_ACTION_EXCAL, function(event, newLink) {
+    const newJwt = parseJwt(newLink);
 
-    if (newJWT) {
-      $location.search('jwt', newJWT);
+    if (newJwt) {
+      $location.search('jwt', newJwt);
     }
   });
 
