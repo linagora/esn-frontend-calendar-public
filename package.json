@@ -15,8 +15,8 @@
   "author": "",
   "license": "AGPLv3",
   "dependencies": {
-    "esn-frontend-common-libs": "github:openpaas-suite/esn-frontend-common-libs#main",
-    "esn-frontend-calendar": "github:openpaas-suite/esn-frontend-calendar#main"
+    "esn-frontend-common-libs": "github:linagora/esn-frontend-common-libs#main",
+    "esn-frontend-calendar": "github:linagora/esn-frontend-calendar#main"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
