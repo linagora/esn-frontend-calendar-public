@@ -80,6 +80,8 @@ module.exports = {
     contentBasePublicPath: BASE_HREF,
     publicPath: '/excal/',
     compress: true,
+    host: '0.0.0.0',
+    disableHostCheck: true,
     port: 9900,
     proxy: [{
       context: [
