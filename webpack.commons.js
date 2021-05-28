@@ -65,6 +65,10 @@ module.exports = {
           to: 'images'
         },
         {
+          from: path.resolve(__dirname, 'src', 'images', 'throbber-amber.svg'),
+          to: 'images'
+        },
+        {
           from: path.resolve(__dirname, 'node_modules', 'socket.io-client', 'dist', 'socket.io.js'),
           to: 'socket.io/socket.io.js'
         },
@@ -80,6 +84,8 @@ module.exports = {
     contentBasePublicPath: BASE_HREF,
     publicPath: '/excal/',
     compress: true,
+    host: '0.0.0.0',
+    disableHostCheck: true,
     port: 9900,
     proxy: [{
       context: [
