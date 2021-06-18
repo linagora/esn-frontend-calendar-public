@@ -40,7 +40,7 @@ html.loading
         ul.list-inline.all-centered
           li.logo
             a(href='#')
-              img.openpaas-logo(ng-src=base + "images/white-logo.svg", fallback-src=base + "images/white-logo.svg", src=base + "images/white-logo.svg", alt="{{ 'OpenPaas Logo' | translate }}")
+              img.openpaas-logo(ng-src=base + "assets/images/white-logo.svg", fallback-src=base + "assets/images/white-logo.svg", src=base + "assets/images/white-logo.svg", alt="{{ 'OpenPaas Logo' | translate }}")
     .consultation-body(ng-view, ng-cloak)
       include ../src/app/app-loading.pug
-    script(src=base + "env/openpaas.js")
+    script(src=base + "assets/env/openpaas.js")
