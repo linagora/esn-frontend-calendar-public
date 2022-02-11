@@ -19,6 +19,7 @@ describe('The CalEventExternalRootController controller', function() {
     };
 
     locationMock = {
+      path: angular.noop,
       search: sinon.spy(),
       url: sinon.stub()
     };
@@ -50,4 +51,3 @@ describe('The CalEventExternalRootController controller', function() {
     expect($location.search).to.have.been.calledWith('jwt', '123456');
   });
 });
-
